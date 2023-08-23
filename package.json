@@ -1,5 +1,5 @@
 {
-  "homepage": "https://ahmedmansour779.github.io/shopping-cart-deploy/",
+  "homepage": "https://ahmedmansour779.github.io/shopping-cart-deployed/",
   "name": "shopping-cart",
   "private": true,
   "version": "0.0.0",
@@ -12,7 +12,7 @@
     "update": "ncu -u",
     "start": "npm run dev",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "vite build && gh-pages -d dist"
   },
   "dependencies": {
     "@mantine/core": "^6.0.19",

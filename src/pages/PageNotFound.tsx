@@ -61,7 +61,7 @@ export function PageNotFound() {
                         page has been moved to another URL. If you think this is an error can you go to home .
                     </Text>
                     <Button variant="outline" size="md" mt="xl" className={classes.control}>
-                        <Link style={{ textDecoration: "none" }} to={"/"}>
+                        <Link style={{ textDecoration: "none" }} to={"/shopping-cart/"}>
                             Get back to home page
                         </Link>
                     </Button>
