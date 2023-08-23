@@ -1,0 +1,1 @@
+export const heightPage: number = window.innerHeight - 80
