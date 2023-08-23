@@ -1,56 +1,66 @@
+import imageBanana from "../shared/banana.png"
+import imageBook from "../shared/book.png"
+import imageCamera from "../shared/camera.png"
+import imageCar from "../shared/car.png"
+import imageComputer from "../shared/computer.png"
+import imageFood from "../shared/food.png"
+import imageHandFree from "../shared/handfree.png"
+import imageHeadSet from "../shared/headset.png"
+import imagePhone from "../shared/phone.png"
+
 export const itemsArray = [
     {
         "id": 1,
         "name": "Book",
         "price": 10.99,
-        "imgUrl": "/src/shared/book.png"
+        "imgUrl": imageBook
     },
     {
         "id": 2,
         "name": "Computer",
         "price": 1199,
-        "imgUrl": "/src/shared/computer.png"
+        "imgUrl": imageComputer
     },
     {
         "id": 3,
         "name": "Banana",
         "price": 1.05,
-        "imgUrl": "/src/shared/banana.png"
+        "imgUrl": imageBanana
     },
     {
         "id": 4,
         "name": "Car",
         "price": 14000,
-        "imgUrl": "/src/shared/car.png"
+        "imgUrl": imageCar
     },
     {
         "id": 5,
         "name": "camera",
         "price": 5000,
-        "imgUrl": "/src/shared/camera.png"
+        "imgUrl": imageCamera
     },
     {
         "id": 6,
         "name": "handfree",
         "price": 300,
-        "imgUrl": "/src/shared/handfree.png"
+        "imgUrl": imageHandFree
     },
     {
         "id": 7,
         "name": "headset",
         "price": 400,
-        "imgUrl": "/src/shared/headset.png"
+        "imgUrl": imageHeadSet
     },
     {
         "id": 8,
         "name": "phone",
         "price": 3000,
-        "imgUrl": "./src/shared/phone.png"
+        "imgUrl": imagePhone
     },
     {
         "id": 9,
         "name": "food",
         "price": 100,
-        "imgUrl": "./src/shared/food.png"
+        "imgUrl": imageFood
     }
 ]
